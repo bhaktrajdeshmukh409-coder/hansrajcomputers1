@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background: white;
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        #selectedProduct {
+            margin-top: 25px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Product List</h1>
+
+    <div class="product-list">
+
+        <div class="product" onclick="showName('Laptop')">
+            <img src="https://via.placeholder.com/200" alt="Laptop">
+            <p>Laptop</p>
+        </div>
+
+        <div class="product" onclick="showName('Mouse')">
+            <img src="https://via.placeholder.com/200" alt="Mouse">
+            <p>Mouse</p>
+        </div>
+
+        <div class="product" onclick="showName('Mouse')">
+            <img src="https://via.placeholder.com/200" alt="Mouse">
+            <p>Mouse</p>
+        </div>
+
+        <div class="product" onclick="showName('Headphones')">
+            <img src="https://via.placeholder.com/200" alt="Headphones">
+            <p>Headphones</p>
+        </div>
+
+    </div>
+
+    <div id="selectedProduct">Click a product to see its name</div>
+
+    <script>
+        function showName(name) {
+            document.getElementById("selectedProduct").innerText = "Selected Product: " + name;
+        }
+    </script>
+
+</body>
+</html>

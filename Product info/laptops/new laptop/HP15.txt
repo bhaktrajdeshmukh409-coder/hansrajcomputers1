@@ -1,0 +1,10 @@
+Brand	        HP
+Model Name	HP 15
+Screen Size	15.6 Inches
+Colour	Black
+Hard Disk Size	128 GB
+CPU Model	Athlon
+RAM Memory 	4 GB/12GB
+Graphics Card Description	Integrated
+Special Feature	Anti Glare Coating, HD Audio, Lightweight, Numeric Keypad
+1 Year Brand Warranty

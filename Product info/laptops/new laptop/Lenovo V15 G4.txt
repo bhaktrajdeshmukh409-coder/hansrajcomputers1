@@ -1,0 +1,10 @@
+ Brand	                Lenovo
+ Model Name	        V15
+ Screen Size	        15.6 Inches
+ Colour	                Silver
+ Hard Disk Size 	512 GB
+ CPU Model	        Athlon
+ RAM Memory 	        8 GB
+ Operating System	Windows 11
+ Special Feature	Windows 11 Lifetime Validity
+ 1 Year Brand Warranty

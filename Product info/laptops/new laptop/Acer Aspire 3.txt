@@ -1,0 +1,10 @@
+Brand	                  acer
+Model Name	          Aspire 3
+Screen Size	          15.6 Inches
+Colour	                  Silver
+Hard Disk Size	          512 GB
+RAM Memory 	          8 GB
+Operating System	  Windows 11 Home
+Special Feature	Thin
+Graphics Card Description Integrated
+1 Year Brand Warranty
